@@ -1,0 +1,80 @@
+main,header{
+width: 80%;
+margin: 0px auto;
+}
+#texto::placeholder { 
+    color: #0A3871; font-weight: bold; 
+    font-family: Inter;
+    Font-style: Regular;
+    Font-size: 32px;
+    Line-height: 48px;
+    Line-height: 150%;
+}
+
+
+.contendorIzq{
+    background-color: #E5E5E5;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.contendorDer{
+    display: inline-block;
+    
+
+
+}
+
+.imgMunieco{
+    position: relative;
+    left: -400px;
+    bottom: 100px;
+    
+}
+
+#texto{
+    width: 400px;
+    height: 400px;
+}
+#mostrarTexto{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+
+}
+
+
+
+/*Botones*/
+
+.btn-generico{
+    border: 1px solid #0A3871;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    color: #0A3871;
+    font-family: Inter;
+    font-style:  Regula;
+    font-size:  16px
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    color: white;
+
+}
+
+
+/**Mendajes al usuario*/
+
+.mensaje{
+    background-color: #0A3871;
+    color: #E5E5E5;
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+}
